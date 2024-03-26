@@ -1,38 +1,46 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  background-color: black;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.header{
+  background-color: rgb(240 13 84);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.btnColour{
+  color:  rgb(240 13 84);
+  border-color: rgb(240 13 84) ;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btnColour:hover{
+  color:  rgb(240 13 84);
+  border-color: rgb(240 13 84) ;
+}
+.card{
+  width: 200px;
+  height: 200px;
+  border-color: rgb(240 13 84);
+  box-shadow: 5px 5px 15px rgb(240 13 84);
+  border-radius: 20px;
+  overflow: hidden;
+}
+img{
+  width: 100%;
+  height: 100px;
+}
+.cartImg{
+  width: 40px;
+  height: 40px;
+}
+.card-title{
+  color: rgb(240 13 84);
+}
+.modal-dialog {
+  position: fixed;
+  margin: auto;
+  width: 300px;
+  height: 100%;
+  right: 0px;
+}
+.modal-content {
+  height: 100%;
 }
